@@ -17,9 +17,10 @@
 	box-sizing: border-box;
     background-color: white;
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
+	align-items: center;
+	align-content: space-between;
 	color: #354463;
 	padding: 2rem 0;
     margin-left:8vw;
@@ -30,8 +31,8 @@
 {
     width:40vw;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row nowrap;
+    justify-content: space-around;
     align-items: center;
 }
 .header .title
@@ -41,11 +42,12 @@
 }
 .donatebtn
 {
-    font: Bold 1vw Helvetica;
+
+    font: Bold 1em Helvetica;
     color: #354463;
     background: #C1F7D5;
-    border-radius: 25vh;
-   padding: 1rem 2rem;  
+    border-radius: 25px;
+   padding: 1.2rem 2rem;  
    text-decoration: none;
 }
 
@@ -86,7 +88,7 @@ main{
 	font-weight: lighter;
 }
 .issue p{
-	font-size: 2.8vw;
+	font-size: 5vmin;
 	line-height:1.5;
 	font-weight: bold;
 	margin: 0 2.5rem;
@@ -454,8 +456,8 @@ main{
 }
 
 .img{
-	height: 35vw;
-	width: 40vw;
+	height: 60vmin;
+	width: 60vmin;
 }
 
 .textSection {
@@ -482,7 +484,7 @@ main{
 
 .b2 p {
 	color: #fff;
-	font-size: 2vw;
+	font-size: 3vmin;
 	padding: 2% 0;
 	line-height: 1.2;
 }
@@ -761,36 +763,20 @@ footer img{
 .stories-section span{
 	left: 10%;
 }
-.letstakeaction{
-	height: 73em;
-}
-.letstakeaction h1{
-	font-size: 4vw;
-	top: 3%;
-	left: 8.33%;
-}
-.event section{
-	left:54%;
-}
-.event,.news{
-	top: 6%;
-	width: 82.3%;
-	height: 41%;
-	left: 8.33%;
-	grid-template-columns: 45.5% 45%;
+
+
+
+.img {
+	width: 40vmin;
+	height: 40vmin;
 }
 
-.event-img,.news-img{
-	height: 55.8%; 
+.b2 p {
+	font-size: 1rem;
 }
-.event-content h2{
-	padding-top: 30%;
-	font-size: 5vw;
-}
-.event-content p{
-	font-size: 3vw;
-	padding: 15% 0;
-}
+
+
+
 
 .subscribe{
 
@@ -1051,6 +1037,10 @@ footer img{
 		padding: 5% 15%;
 		font-size: 2vw;
 		font-weight: bold;
+	}
+
+	.b2 p {
+		font-size: 2vw;
 	}
 
 
