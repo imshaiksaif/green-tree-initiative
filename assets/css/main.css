@@ -88,7 +88,7 @@ main{
 	font-weight: lighter;
 }
 .issue p{
-	font-size: 5vmin;
+	font-size: 2.3em;
 	line-height:1.5;
 	font-weight: bold;
 	margin: 0 2.5rem;
@@ -456,13 +456,11 @@ main{
 }
 
 .img{
-	height: 60vmin;
-	width: 60vmin;
+	width: 70%;
 }
 
 .textSection {
-	height: 35vw;
-	width: 35vw;
+	width: 50%;
 }
 
 .b1{
@@ -479,12 +477,12 @@ main{
 
 .b2 h3{
 	color: #fff;
-	font-size: 3vw;
+	font-size: 2em;
 }
 
 .b2 p {
 	color: #fff;
-	font-size: 3vmin;
+	font-size: 1.2em;
 	padding: 2% 0;
 	line-height: 1.2;
 }
@@ -771,10 +769,19 @@ footer img{
 	height: 40vmin;
 }
 
-.b2 p {
-	font-size: 1rem;
+
+.b2 h3 {
+	font-size: 1em;
 }
 
+
+.b2 p {
+	font-size: 0.7rem;
+}
+
+.firstDiv .textSection {
+	margin-left: 5%;
+}
 
 
 
@@ -835,7 +842,7 @@ footer img{
 
 /* mobile mode  */
 
-@media screen and (max-width:530px){
+@media screen and (max-width:600px){
 
 
 	.header
