@@ -1,276 +1,255 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
-
 
 .container {
-    font-family: Helvetica, Arial, sans-serif;
-    /* background: black; */
-    width: 100%;
-    height: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+	font-family: Helvetica, Arial, sans-serif;
+	/* background: black; */
+	width: 100%;
+	height: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
 }
 
-
 header {
-    height: 10vh;
-    background-color: #FFFFFF;
-    text-align: center;
-    
-    padding-top: 1.5rem;
-    color: #354463;
+	height: 10vh;
+	background-color: #ffffff;
+	text-align: center;
+
+	padding-top: 1.5rem;
+	color: #354463;
 }
 
 header h3 {
-    font-size: 1.5rem; 
+	font-size: 1.5rem;
 }
 
 main {
-    background: url(../images/donation/annie-spratt-427340-unsplash.png);
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 5%;
+	background: url(../images/donation/annie-spratt-427340-unsplash.png);
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
 }
 
 .formSection {
-    width: 40%;
-    background-color: #354463;
-    color: #fff;
-    padding: 5%;
-
-
+	width: 40%;
+	background-color: #354463;
+	color: #fff;
+	padding: 5%;
 }
 
-
-.formHeading, .paymentHead {
-    font-size: 2.5vw;
-    font-weight: bold;
-    padding-bottom: 1rem;
+.formHeading,
+.paymentHead {
+	font-size: 2.5vw;
+	font-weight: bold;
+	padding-bottom: 1rem;
 }
 
-
-.row1, .row3, .row6{
-    display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: nowrap;
-    width: 100%;
-
+.row1,
+.row3,
+.row6 {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: nowrap;
+	width: 100%;
 }
 
-.row1, .row2, .row3, .row4, .row5, .row6, .card, .checkInfo, .backlink {
-    padding: 1rem 0;
-    flex-wrap: nowrap;
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.card,
+.checkInfo,
+.backlink {
+	padding: 1rem 0;
+	flex-wrap: nowrap;
 }
 
-
-.address input, .emailAdd input, .card input {
-    display: block;
-    width: 96%;
+.address input,
+.emailAdd input,
+.card input {
+	display: block;
+	width: 96%;
 }
 
-
-input, .state select {
-    border: none;
-    border-bottom: 2px #C1F7D5 solid; 
-    background-color: #354463;
-    width: 90%;
-    font-size: 1rem;
-    padding: 0.5rem 0;
+input,
+.state select {
+	border: none;
+	border-bottom: 2px #c1f7d5 solid;
+	background-color: #354463;
+	width: 90%;
+	font-size: 1rem;
+	padding: 0.5rem 0;
 }
 
 .zipCode {
-    width: 40%;
+	width: 40%;
 }
 
 .year {
-    color: #354463;
-}    
+	color: #354463;
+}
 
 .checkInfo {
-    /* padding: 5%; */
-    font-size: 2vw;
-    font-weight: bold;
+	/* padding: 5%; */
+	font-size: 2vw;
+	font-weight: bold;
 }
 
 .linksBtn {
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0;
 }
 
-.goBack a, a:visited{
-    color: #C1F7D5;
-    font: 1vw;
+.goBack a,
+a:visited {
+	color: #c1f7d5;
+	font: 1vw;
 }
 
 .process {
-    background-color: #C1F7D5;
-    color: #354463;
-    padding: 3% 10%;
-    border-radius: 2.3em;
+	background-color: #c1f7d5;
+	color: #354463;
+	padding: 3% 10%;
+	border-radius: 2.3em;
 }
 
-.exp, .secCode {
-    flex-grow: 1;
+.exp,
+.secCode {
+	flex-grow: 1;
 }
-.climateText{
-    width: 40%;
+.climateText {
+	width: 40%;
 }
 
 .climateText p {
-    font-family: flood-std,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff;
-    font-size: 4rem;
+	font-family: flood-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	font-size: 4rem;
 }
-
 
 /* ------footer area------ */
 
-footer{
-    color: #354463;
+footer {
+	color: #354463;
 	height: 370px;
 	display: grid;
-	grid-template-rows: 30% 40% 30%; 
-	grid-template-columns:0.5fr 0.72fr 0.5fr 0.5fr 0.5fr 0.5fr 0.3fr 1fr;
-	grid-template-areas: ". . . . . . . ."
-						 ". a . b c d . e"
-						 ". . . . . . . .";
+	grid-template-rows: 30% 40% 30%;
+	grid-template-columns: 0.5fr 0.72fr 0.5fr 0.5fr 0.5fr 0.5fr 0.3fr 1fr;
+	grid-template-areas: ". . . . . . . ." ". a . b c d . e" ". . . . . . . .";
 }
-footer h2{
+footer h2 {
 	grid-area: a;
 	width: 68%;
 	font-size: 22px;
 }
-footer p{
+footer p {
 	font-size: 14px;
 }
-footer div{
-	margin-right: 15%; 
+footer div {
+	margin-right: 15%;
 }
-.contactus{
+.contactus {
 	grid-area: b;
 }
-.contactus p{
+.contactus p {
 	width: 100%;
 }
-.links{
+.links {
 	grid-area: c;
 }
-.links p{
+.links p {
 	width: 60%;
 }
-.followus{
+.followus {
 	grid-area: d;
 }
-.followus p{
+.followus p {
 	width: 50%;
 }
-footer img{
+footer img {
 	grid-area: e;
 	width: 57%;
 }
 
-
 /* tablet mode  */
 
-@media screen and (max-width: 900px){
-    
-    
-    main {
-        flex-direction: column-reverse;
-        
-    }
+@media screen and (max-width: 1020px) {
+	main {
+		flex-direction: column-reverse;
+	}
 
-    .climateText, .formSection {
-        width: 90%;
-    }
-    
-    .climateText{
-        text-align: center;
-    }
+	.climateText,
+	.formSection {
+		width: 90%;
+	}
 
-    .checkInfo {
-        font-size: 3vw;
-    }
+	.climateText {
+		text-align: center;
+	}
 
-    /* --------footer area ---- */
-    footer{
-        height: 424px;
-        grid-template-rows: 10% 40% 40% 10%; 
-        grid-template-columns:1fr 2.5fr 1.2fr 2.2fr 1fr 3fr 1fr;
-        grid-template-areas: ". . . . . . . "
-                             ". a . b . d . "
-                             ". . . c . e . "
-                             ". . . . . . . ";
-    }
-    footer h2{
-        width: 95%;
-    }
-    footer p{
-        line-height: 1.5;
-    }
-    footer h4{
-        font-size: 11px;
-    }
-    footer div{
-        margin-right: 0%; 
-    }
-    .links p{
-        width: 60%;
-        text-decoration: underline;
-    }
-    .followus p{
-        width: 50%;
-        text-decoration: underline;
-    }
-    footer img{
-        width: 93.5%;
-    }
-    
-    
-    
+	.checkInfo {
+		font-size: 3vw;
+	}
+
+	/* --------footer area ---- */
+	footer {
+		height: 424px;
+		grid-template-rows: 10% 40% 40% 10%;
+		grid-template-columns: 1fr 2.5fr 1.2fr 2.2fr 1fr 3fr 1fr;
+		grid-template-areas: ". . . . . . . " ". a . b . d . " ". . . c . e . " ". . . . . . . ";
+	}
+	footer h2 {
+		width: 95%;
+	}
+	footer p {
+		line-height: 1.5;
+	}
+	footer h4 {
+		font-size: 11px;
+	}
+	footer div {
+		margin-right: 0%;
+	}
+	.links p {
+		width: 60%;
+		text-decoration: underline;
+	}
+	.followus p {
+		width: 50%;
+		text-decoration: underline;
+	}
+	footer img {
+		width: 93.5%;
+	}
 }
-
-
-
 
 /* mobile mode  */
 
-@media screen and (max-width:580px){
-
-    footer{
-        height: 600px;
-        grid-template-rows: 5% 30% 30% 30% 5%; 
-        grid-template-columns:1fr 3fr 0.75fr 0.5fr 3.5fr 1fr;
-        grid-template-areas: ". . . . . . "
-                             ". a . . b . "
-                             ". d . . c . "
-                             ". . . e e . "
-                             ". . . . . . ";
-    }
-    footer h2{
-        font-size: 18px;
-    }
-    .links p{
-        width: 70%;
-    }
-    footer img{
-        width: 100%;
-    }
-    }
-    
-    
-    
-    
-
-
-
+@media screen and (max-width: 600px) {
+	footer {
+		height: 600px;
+		grid-template-rows: 5% 30% 30% 30% 5%;
+		grid-template-columns: 1fr 3fr 0.75fr 0.5fr 3.5fr 1fr;
+		grid-template-areas: ". . . . . . " ". a . . b . " ". d . . c . " ". . . e e . " ". . . . . . ";
+	}
+	footer h2 {
+		font-size: 18px;
+	}
+	.links p {
+		width: 70%;
+	}
+	footer img {
+		width: 100%;
+	}
+}
