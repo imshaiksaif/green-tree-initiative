@@ -266,12 +266,12 @@ main {
 
 	grid-template-areas: "a" "b" "c" "d";
 }
-.outof .row1 {
+.outof .did-you-know-argi {
 	grid-area: a;
 	position: relative;
 	background-color: white;
 }
-.row1 section {
+.did-you-know-argi section {
 	background-color: #354463;
 	width: 10em;
 	height: 2.5em;
@@ -279,23 +279,23 @@ main {
 	top: -15px;
 	left: 11%;
 }
-.row1 section h2 {
+.did-you-know-argi section h2 {
 	padding: 0;
 	color: white;
 	font-size: 14px;
 	font-weight: lighter;
 }
-.outof .row2 {
+.outof .did-you-know-people {
 	grid-area: b;
 	position: relative;
 	background-color: white;
 }
-.outof .row3 {
+.outof .did-you-know-crop {
 	grid-area: c;
 	position: relative;
 	background-color: white;
 }
-.outof .row4 {
+.outof .did-you-know-million {
 	grid-area: d;
 	position: relative;
 	background-color: white;
@@ -426,13 +426,13 @@ main {
 	font-family: 'flood-std', sans-serif;
 }
 
-.firstDiv {
+.action-events-earth {
 	display: flex;
 	justify-content: space-between;
 	padding: 10% 0;
 }
 
-.secoundDiv {
+.action-events-meeting {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
@@ -448,7 +448,7 @@ main {
 	width: 50%;
 }
 
-.b1 {
+.event-name {
 	background-color: #fff;
 	padding: 2% 5%;
 	display: inline-block;
@@ -456,23 +456,23 @@ main {
 	font-size: 1.5vw;
 }
 
-.b2 {
+.event-heading {
 	padding: 3% 0;
 }
 
-.b2 h3 {
+.event-heading h3 {
 	color: #fff;
 	font-size: 2em;
 }
 
-.b2 p {
+.event-heading p {
 	color: #fff;
 	font-size: 1.2em;
 	padding: 2% 0;
 	line-height: 1.2;
 }
 
-.b3 {
+.read-more-button {
 	font-size: 2vw;
 	background-color: #c1f7d5;
 	padding: 3% 6%;
@@ -731,15 +731,15 @@ footer h4.stop-climate {
 		height: 40vmin;
 	}
 
-	.b2 h3 {
+	.event-heading h3 {
 		font-size: 1em;
 	}
 
-	.b2 p {
+	.event-heading p {
 		font-size: 0.7rem;
 	}
 
-	.firstDiv .textSection {
+	.action-events-earth .textSection {
 		margin-left: 5%;
 	}
 
@@ -917,7 +917,7 @@ footer h4.stop-climate {
 		height: 14em;
 		padding-bottom: 1em;
 	}
-	.row1 section {
+	.did-you-know-argi section {
 		left: 25%;
 	}
 	.stories-section {
@@ -950,8 +950,8 @@ footer h4.stop-climate {
 		flex-direction: column;
 	}
 
-	.firstDiv,
-	.secoundDiv {
+	.action-events-earth,
+	.action-events-meeting {
 		flex-direction: column;
 		position: relative;
 		padding: 0;
@@ -966,7 +966,7 @@ footer h4.stop-climate {
 		text-align: center;
 	}
 
-	.b2 {
+	.event-heading {
 		width: 70%;
 	}
 
@@ -975,7 +975,7 @@ footer h4.stop-climate {
 		height: 30%;
 	}
 
-	.b1 {
+	.event-name {
 		position: absolute;
 		top: -5%;
 		padding: 5% 15%;
@@ -983,7 +983,7 @@ footer h4.stop-climate {
 		font-weight: bold;
 	}
 
-	.b2 p {
+	.event-heading p {
 		font-size: 2vw;
 	}
 
