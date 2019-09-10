@@ -4,7 +4,7 @@
 	color: #354463;
 }
 
-.maxWidth {
+.max-Width {
 	max-width: 1480px;
 	margin: 0 auto;
 	box-sizing: border-box;
@@ -36,7 +36,7 @@
 	font-weight: bold;
 	text-align: left;
 }
-.donatebtn {
+.donate-btn {
 	font: Bold 1em Helvetica;
 	color: #354463;
 	background: #c1f7d5;
@@ -92,18 +92,18 @@ main {
 	font-weight: lighter;
 	text-decoration: underline;
 }
-.climatePng {
+.climate {
 	grid-area: stop;
 	font-family: 'flood-std', sans-serif;
 	color: white;
 	font-size: 4em;
 }
-.actionSection {
+.action-Section {
 	background-color: #c1f7d5;
 	width: 100%;
 	height: 240px;
 }
-.actionSection h2 {
+.action-Section h2 {
 	background-color: #354463;
 	color: white;
 	position: relative;
@@ -144,7 +144,7 @@ main {
 .todo .donate {
 	grid-area: donate;
 }
-.ourWork {
+.our-work {
 	background-color: #354463;
 	width: 100%;
 	height: 63.43em;
@@ -154,7 +154,7 @@ main {
 	grid-template-areas: ". . ." ". a ." ". . ." ". b ." ". . ." ". c ." ". . .";
 }
 
-.ourWork h2 {
+.our-work h2 {
 	background-color: white;
 	font-size: 14px;
 	width: 14.3%;
@@ -163,12 +163,12 @@ main {
 	line-height: 2.9;
 	grid-area: a;
 }
-.ourWork h1 {
+.our-work h1 {
 	color: white;
 	font-size: 2.5rem;
 	grid-area: b;
 }
-.ourWork .box {
+.our-work .box {
 	display: grid;
 	height: 33em;
 	grid-area: c;
@@ -219,19 +219,19 @@ main {
 	left: 2em;
 	top: 1.5em;
 }
-.toKnowSection {
+.to-know-section {
 	background-image: url("../images/home/did-you-know-background@3x.png");
 	background-size: cover;
 	background-position: left;
 	height: 79.93em;
 	background-repeat: no-repeat;
 }
-.toKnowSection-content {
+.to-know-section-content {
 	display: grid;
 	grid-template-columns: 39.018% 48.57%;
 	grid-column-gap: 9.65%;
 	padding: 8.88% 11.11%;
-	grid-template-areas: "climate outof";
+	grid-template-areas: "climate out-of";
 }
 .climate {
 	grid-area: climate;
@@ -257,8 +257,8 @@ main {
 	left: 0;
 }
 
-.outof {
-	grid-area: outof;
+.out-of {
+	grid-area: out-of;
 	height: 63.93em;
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -266,7 +266,7 @@ main {
 
 	grid-template-areas: "a" "b" "c" "d";
 }
-.outof .did-you-know-argi {
+.out-of .did-you-know-argi {
 	grid-area: a;
 	position: relative;
 	background-color: white;
@@ -285,22 +285,22 @@ main {
 	font-size: 14px;
 	font-weight: lighter;
 }
-.outof .did-you-know-people {
+.out-of .did-you-know-people {
 	grid-area: b;
 	position: relative;
 	background-color: white;
 }
-.outof .did-you-know-crop {
+.out-of .did-you-know-crop {
 	grid-area: c;
 	position: relative;
 	background-color: white;
 }
-.outof .did-you-know-million {
+.out-of .did-you-know-million {
 	grid-area: d;
 	position: relative;
 	background-color: white;
 }
-.outof h2 {
+.out-of h2 {
 	position: absolute;
 	top: 25%;
 	left: 11.76%;
@@ -308,7 +308,7 @@ main {
 	font-size: 2.75em;
 	margin: 0;
 }
-.outof p {
+.out-of p {
 	position: absolute;
 	top: 45%;
 	left: 11.76%;
@@ -412,7 +412,7 @@ main {
 	top: -1.5em;
 }
 
-.letsTakeAction {
+.lets-take-action {
 	background-color: #354463;
 	display: flex;
 	color: #fff;
@@ -598,7 +598,7 @@ footer h4.stop-climate {
 	.elements .header-items {
 		text-align: left;
 	}
-	.header .donatebtn {
+	.header .donate-btn {
 		font: Bold 2.5vw/2.8vw Helvetica;
 		align-self: flex-end;
 		justify-self: center;
@@ -615,7 +615,7 @@ footer h4.stop-climate {
 		grid-template-columns: 8.33% 83.33% 8.33%;
 		grid-template-areas: ". . . " ". stop ." ". . ." ". issue ." ". . .";
 	}
-	.climatePng {
+	.climate {
 		background-size: 30% 100%;
 	}
 	.issue p {
@@ -625,7 +625,7 @@ footer h4.stop-climate {
 	.issue h6 {
 		padding-left: 10%;
 	}
-	.actionSection {
+	.action-Section {
 		height: 336px;
 	}
 	.todo {
@@ -636,17 +636,17 @@ footer h4.stop-climate {
 		grid-column-gap: 0;
 		grid-template-areas: ". . . . ." ". learn . volunteer ." ". share . donate ." ". . . . .";
 	}
-	.ourWork {
+	.our-work {
 		grid-template-rows: 3.5em 2.5em 2em 8.75em 3.5em 60.5em 9.4em;
 		grid-template-columns: 8.14% 83.4% 8.14%;
 		height: 87em;
 	}
-	.ourWork h1 {
+	.our-work h1 {
 		font-size: 35.8px;
 		line-height: 1.25;
 		letter-spacing: 0;
 	}
-	.ourWork .box {
+	.our-work .box {
 		display: grid;
 		width: 100%;
 		grid-area: c;
@@ -691,7 +691,7 @@ footer h4.stop-climate {
 		grid-area: b;
 		position: relative;
 	}
-	.toKnowSection-content {
+	.to-know-section-content {
 		grid-template-columns: 32% 64.5%;
 	}
 
@@ -699,10 +699,10 @@ footer h4.stop-climate {
 		height: 18.4em;
 	}
 
-	.outof h2 {
+	.out-of h2 {
 		font-size: 36px;
 	}
-	.outof p {
+	.out-of p {
 		font-size: 16px;
 	}
 	.stories {
@@ -824,7 +824,7 @@ footer h4.stop-climate {
 		margin: 1%;
 		text-align: left;
 	}
-	.header .donatebtn {
+	.header .donate-btn {
 		position: static;
 		font: Bold 5vw Helvetica;
 		width: 100%;
@@ -844,7 +844,7 @@ footer h4.stop-climate {
 		grid-template-rows: 5% 25% 15% 50% 5%;
 		grid-template-columns: 7.5% 85% 7.5%;
 	}
-	.climatePng {
+	.climate {
 		background-size: 50% 100%;
 	}
 	.issue p {
@@ -860,18 +860,18 @@ footer h4.stop-climate {
 	.todo {
 		grid-template-columns: 0.5fr 2.5fr 0.25fr 2.5fr 0.5fr;
 	}
-	.ourWork {
+	.our-work {
 		height: 110em;
 	}
-	.ourWork h2 {
+	.our-work h2 {
 		width: 52.2%;
 		margin: auto auto;
 	}
-	.ourWork h1 {
+	.our-work h1 {
 		font-size: 22px;
 		text-align: center;
 	}
-	.ourWork .box {
+	.our-work .box {
 		grid-template-rows: 415px 415px 415px;
 	}
 	.tree,
@@ -904,14 +904,14 @@ footer h4.stop-climate {
 		left: 25%;
 		position: relative;
 	}
-	.toKnowSection {
+	.to-know-section {
 		height: 90em;
 	}
-	.toKnowSection-content {
+	.to-know-section-content {
 		padding: 20% 7%;
 		grid-template-rows: 25% 84.5%;
 		grid-template-columns: 1fr;
-		grid-template-areas: "climate" "outof";
+		grid-template-areas: "climate" "out-of";
 	}
 	.climate {
 		height: 14em;
@@ -946,7 +946,7 @@ footer h4.stop-climate {
 		left: 24%;
 	}
 
-	.letsTakeAction {
+	.lets-take-action {
 		flex-direction: column;
 	}
 

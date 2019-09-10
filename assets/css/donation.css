@@ -35,15 +35,15 @@ main {
 	padding: 5%;
 }
 
-.formSection {
+.form-section {
 	width: 40%;
 	background-color: #354463;
 	color: #fff;
 	padding: 5%;
 }
 
-.formHeading,
-.paymentHead {
+.form-heading,
+.payment-head {
 	font-size: 2.5vw;
 	font-weight: bold;
 	padding-bottom: 1rem;
@@ -81,7 +81,7 @@ input,
 	padding: 0.5rem 0;
 }
 
-.zipCode {
+.zip-code {
 	width: 40%;
 }
 
@@ -95,7 +95,7 @@ input,
 	font-weight: bold;
 }
 
-.linksBtn {
+.links-btn {
 	display: flex;
 	justify-content: space-between;
 	padding: 5% 0;
@@ -115,14 +115,14 @@ a:visited {
 }
 
 .exp,
-.secCode {
+.sec-code {
 	flex-grow: 1;
 }
-.climateText {
+.climate-text {
 	width: 40%;
 }
 
-.climateText p {
+.climate-text p {
 	font-family: flood-std, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -181,12 +181,12 @@ footer img {
 		flex-direction: column-reverse;
 	}
 
-	.climateText,
-	.formSection {
+	.climate-text,
+	.form-section {
 		width: 90%;
 	}
 
-	.climateText {
+	.climate-text {
 		text-align: center;
 	}
 
